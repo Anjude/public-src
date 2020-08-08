@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/Anjude/picgo/anjude/info-th/images/QRc.png)
+![example](https://raw.githubusercontent.com/Anjude/picgo/anjude/info-th/images/QRc.png)
 #信息论
 ---
 ##第一章 绪论
@@ -16,4 +16,6 @@
 - 认证性
 
 ##第二章 离散信源及其信息测度
+
+![信源分类](https://raw.githubusercontent.com/Anjude/picgo/anjude/info-th/images/2-1.png)
 
