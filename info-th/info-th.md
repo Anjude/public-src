@@ -26,7 +26,7 @@
 
 ### 2-1 信源的数学模型及分类
 
-![信源分类](https://raw.githubusercontent.com/Anjude/picgo/anjude/info-th/images/2-1.png)
+![信源分类](https://raw.githubusercontent.com/Anjude/major-md/anjude/info-th/images/2-1.png)
 
 ### 2-2 离散信源的信息熵
 
@@ -87,6 +87,8 @@
 ## 第四章 波形信源和波形信道
 
 
+
+## 第六章 有噪信道编码定理
 
 
 
