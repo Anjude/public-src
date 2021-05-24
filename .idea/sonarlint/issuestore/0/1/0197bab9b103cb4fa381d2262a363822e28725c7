@@ -1,0 +1,13 @@
+
+S	java:S106
+"9Replace this use of System.out or System.err by a logger.(ß®ä‡üÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Öû¹Üþÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(’ë€•ûÿÿÿÿ
+B
+java:S1612",Replace this lambda with a method reference.(¥—ýð
+B
+java:S1602",Remove useless curly braces around statement(¥—ýð
+B
+java:S1602",Remove useless curly braces around statement(¥—ýð
+L	java:S106"9Replace this use of System.out or System.err by a logger.(§ó0

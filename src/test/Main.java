@@ -1,20 +1,21 @@
 package test;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Anjude
  * Date: 2021/4/2 0:25
  */
 public class Main {
-    public static void main(String[] args) throws IOException {
-//        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-//        String as = in.readLine();
-        Animal a = new Cat(18, "male");
-        Cat c = new Cat(18, "female");
-        System.out.println(a.hello() + a.test());
-        System.out.println(c.hello() + c.miao() + c.test());
+    static public void main(String[] args) throws IOException {
+        List<Integer> list = new ArrayList<>();
+        for (int i = 1; i <= 10; ++i) {
+            list.add(i);
+        }
+        list.removeIf(filter -> filter % 2 == 0); /* 删除list中的所有偶数 */
+        System.out.println(list); /* [1, 3, 5, 7, 9] */
+
     }
 }

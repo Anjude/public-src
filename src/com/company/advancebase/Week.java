@@ -38,4 +38,10 @@ public enum Week {
     public int getNum() {
         return num;
     }
+
+    public static void main(String[] args) {
+        System.out.println(Week.SATURDAY.num);
+        System.out.println(Week.SATURDAY.desc);
+        System.out.println(Week.SATURDAY.getDesc());
+    }
 }

@@ -1,0 +1,24 @@
+
+{
+java:S21421"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ªÄÌş˜/
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(¦¹²õùÿÿÿÿ8ƒ½Ëş˜/
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(ˆì×üÿÿÿÿ8ôÌş˜/
+X
+java:S2696."6Make the enclosing method "static" or remove this set.(Ú—‹ıÿÿÿÿ8¢Ìş˜/
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¯ÄÌş˜/
+)
+java:S2438@""mt" is a "Thread".(ÃË
+.
+java:S2438A""mt" is a "Thread".(¦“Ğ¥ûÿÿÿÿ
+.
+java:S2438B""mt" is a "Thread".(ƒéñƒıÿÿÿÿ
+.
+java:S2438C""mt" is a "Thread".(Ù½Ç’üÿÿÿÿ
+)
+java:S2438D""mt" is a "Thread".(³Ü½”
+.
+java:S2438E""mt" is a "Thread".(Á’¤Şşÿÿÿÿ
+5
+java:S2438F""mt" is a "Thread".(°¶„Çøÿÿÿÿ8‚Ìş˜/
+5
+java:S2438G""mt" is a "Thread".(¤¿™®şÿÿÿÿ8ÈÄÌş˜/
