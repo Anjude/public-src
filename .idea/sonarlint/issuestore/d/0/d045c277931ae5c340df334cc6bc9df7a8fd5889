@@ -1,0 +1,7 @@
+
+T
+java:S3400""9Remove this method and declare a constant for this value.(§êÌéÿÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(³óÿ¢ûÿÿÿÿ
+J
+java:S16111"/Remove the parentheses around the "s" parameter(ÆÒÚÊùÿÿÿÿ
+Q	java:S1257"<This block of commented-out lines of code should be removed.(êÌ¨Ì

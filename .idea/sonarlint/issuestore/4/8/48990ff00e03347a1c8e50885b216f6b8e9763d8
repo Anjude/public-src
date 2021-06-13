@@ -1,0 +1,26 @@
+
+i
+java:S1192"NDefine a constant instead of duplicating this literal "get resource1" 3 times.(Þýóéùÿÿÿÿ
+i
+java:S1192"NDefine a constant instead of duplicating this literal "get resource2" 3 times.(­—Ïèúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Þýóéùÿÿÿÿ
+t
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+^
+java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(»ãßºøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(£ ¥Ýüÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(­—Ïèúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(­—Ïèúÿÿÿÿ
+t
+java:S2142 "^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+^
+java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(»ãßºøÿÿÿÿ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(Û©ù¹úÿÿÿÿ
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(Þýóéùÿÿÿÿ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(Þýóéùÿÿÿÿ
+t
+java:S21423"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+^
+java:S22762"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(»ãßºøÿÿÿÿ
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(£ ¥Ýüÿÿÿÿ
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(­—Ïèúÿÿÿÿ
