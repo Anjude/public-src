@@ -1,8 +1,7 @@
 package test;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by Anjude
@@ -10,12 +9,9 @@ import java.util.List;
  */
 public class Main {
     static public void main(String[] args) throws IOException {
-        List<Integer> list = new ArrayList<>();
-        for (int i = 1; i <= 10; ++i) {
-            list.add(i);
-        }
-        list.removeIf(filter -> filter % 2 == 0); /* 删除list中的所有偶数 */
-        System.out.println(list); /* [1, 3, 5, 7, 9] */
-
+        Map<Objects, String> map = new HashMap<>();
+        int n = 0;
+        int tab[]  = new int[1];
+        System.out.println((n = tab.length) == 0);
     }
 }

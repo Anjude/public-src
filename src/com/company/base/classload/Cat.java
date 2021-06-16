@@ -1,4 +1,4 @@
-package test;
+package com.company.base.classload;
 
 /**
  * Created by Anjude
@@ -8,14 +8,12 @@ public class Cat extends Animal {
     private String gender;
     private int age;
 
-    public static int a = 1;
-
     static {
         System.out.println("static cat");
     }
 
-
     public Cat() {
+        super();
         System.out.println("no super");
     }
 
@@ -32,7 +30,7 @@ public class Cat extends Animal {
     }
 
     @Override
-    public String hello() {
+    public String hello(){
         return "我是猫";
     }
 

@@ -1,4 +1,4 @@
-package test;
+package com.company.base.classload;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
