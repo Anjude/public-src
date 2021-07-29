@@ -4,6 +4,24 @@ package com.company.base;
  * Created by Anjude on 2021/3/28 20:08
  */
 public class Test {
+    private String name;
+
+    public Test() {
+
+    }
+
+    public Test(String name) {
+        this.name = name;
+    }
+
+    public void getName() {
+        System.out.println(name);
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public static void main(String[] args) {
         System.out.println("90 度的正弦值：" + Math.sin(Math.PI / 2));
         System.out.println("0度的余弦值：" + Math.cos(0));
