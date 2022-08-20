@@ -40,7 +40,7 @@ func xz(w http.ResponseWriter, r *http.Request) {
 	fmt.Printf("%+v", data)
 	// 处理
 	// xxx
-	msg, _ := json.Marshal(define.JsonResult{Code: 0, Msg: fmt.Sprint("hello ", data)})
+	msg, _ := json.Marshal(define.JsonResult{Code: 0, Msg: "This is a post api "})
 
 	w.Header().Set("content-type", "text/json")
 	w.Write(msg)
