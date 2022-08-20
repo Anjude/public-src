@@ -1,13 +1,23 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"log"
 	"net/http"
+
+	"go-tmp/define"
 )
 
-func sayhelloName(w http.ResponseWriter, _ *http.Request) {
-	fmt.Fprintf(w, "Hello 20:36!") // 这个写入到 w 的是输出到客户端的
+//验证接口
+func sayhelloName(w http.ResponseWriter, r *http.Request) {
+	values := r.URL.Query()
+	arg := values.Get("name")
+
+	msg, _ := json.Marshal(define.JsonResult{Code: 0, Msg: fmt.Sprint("hello ", arg)})
+
+	w.Header().Set("content-type", "text/json")
+	w.Write(msg)
 }
 
 func main() {
