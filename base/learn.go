@@ -1,6 +1,10 @@
 //go:build (prod && ignore) || (dev && ignore) || test
 // +build prod,ignore dev,ignore test
 
+/*
+多行注释
+*/
+
 // Single line comment
 /* Multi-
 line comment */
@@ -39,10 +43,10 @@ func main() {
 // If there are no parameters, empty parentheses are still required.
 func beyondHello() {
 	var x int // Variable declaration. Variables must be declared before use.
-	x = 3     // Variable assignment.
+	x1 = 3    // Variable assignment.
 	// "Short" declarations use := to infer the type, declare, and assign.
-	y := 4
-	sum, prod := learnMultiple(x, y)        // Function returns two values.
+	y1 := 4
+	sum, prod := learnMultiple(x1, y1)      // Function returns two values.
 	fmt.Println("sum:", sum, "prod:", prod) // Simple output.
 	learnTypes()                            // < y minutes, learn more!
 }
@@ -119,8 +123,13 @@ can include line breaks.` // Same string type.
 
 	// Maps are a dynamically growable associative array type, like the
 	// hash or dictionary types of some other languages.
-	m := map[string]int{"three": 3, "four": 4}
+	m := map[string]int{
+		"three": 3, 
+		"four": 4
+	}
 	m["one"] = 1
+
+	a, b := 1,2
 
 	// Unused variables are an error in Go.
 	// The underscore lets you "use" a variable but discard its value.
@@ -298,7 +307,8 @@ type Stringer interface {
 
 // Define pair as a struct with two fields, ints named x and y.
 type pair struct {
-	x, y int
+	x int
+	y int
 }
 
 // Define a method on type pair. Pair now implements Stringer because Pair has defined all the methods in the interface.
